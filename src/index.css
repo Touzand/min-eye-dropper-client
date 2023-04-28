@@ -1,0 +1,73 @@
+:root {
+  --background-color: #0d1227;
+  --background-color-2: #1a1e2b;
+  --text-color: #ffffff;
+  --background-sub: #223157;
+  --background-sub-2: #434e6a;
+  --rainbow-orange: #ff8036;
+  --rainbow-orange-2: #fdb644;
+  --rainbow-green: #e0f162;
+  --rainbow-green-2: #5deb5d;
+  --rainbow-blue: #6bf4e9;
+  --rainbow-blue-2: #51b0e9;
+  --rainbow-purple: #ec67ec;
+  --font-size-small: 17px;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding:0;
+}
+
+/*::-webkit-scrollbar {*/
+  /*width: 0;*/
+  /*background: transparent;*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb {*/
+  /*background: #ff0000;*/
+/*}*/
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .flex {
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3rem;
+  }
+  .flex-item {
+    width: 450px;
+  }
+}
+ 
+a{
+  text-decoration: none;
+}
